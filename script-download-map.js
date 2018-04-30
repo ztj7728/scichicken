@@ -5,7 +5,7 @@ const fs = require('fs')
 const mkdirp = require('mkdirp')
 
 // example: https://tiles2-v2.pubgmap.net/maptiles/miramar/v3/5/31/31.png
-const zooms = [0, 1, 2, 3, 4] // 5 might be too many
+const zooms = [0, 1, 2, 3, 4, 5] // 5 might be too many
 const baseurl = 'https://tiles2-v2.pubgmap.net/tiles' // tiles0-3 can be used, I think they are the same
 const maps = ['elevation-erangel/v5', 'erangel/v11', 'miramar/v5', 'elevation-miramar/v2']
 const downloadLoc = './static/maptiles'
